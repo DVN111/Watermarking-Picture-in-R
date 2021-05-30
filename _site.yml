@@ -1,0 +1,17 @@
+name: "my-website"
+navbar:
+  title: "My Website"
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "More"
+      menu:
+        - text: "Home"
+          href: index.html
+        - text: "My Program"
+          href: index.html
+        - text: "About"
+          href: about.html
